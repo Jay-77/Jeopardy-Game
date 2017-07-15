@@ -2,25 +2,40 @@
 .logo {
   display: flex;
   justify-content: center;
-  align-items: center;#body {
-	background-color: blue;
+  align-items: center; 
+	
 }
 
 
+.question {
+  justify-self: center;
+  width: 100%;
+}
 .panel-heading {
-	 display: grid;
+  display: grid;
   grid-template-columns: repeat(5, 1fr);
+  position: center;
 }
-
+.gridbtn {
+  width: 100%;
+  height: 90px;
+  background-color: darkblue;
+}
 .gridstyling {
     display: grid;
     grid-template-rows: [ten] 1fr [twenty] 1fr [thirty] 1fr [forty] 1fr [fifty] 1fr;
     grid-auto-flow: column;
     grid-gap: 10px;
 }
-
-
-.question {
-  justify-self: center;
-  width: 100%
+.qcategory-title, .question, .scoretally {
+  font-family: monospace;
 }
+.container-fluid {
+  max-width: 900px
+}
+
+
+
+
+
+
