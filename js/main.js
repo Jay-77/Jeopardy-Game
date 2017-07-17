@@ -1,4 +1,5 @@
-// console.group('Main.js loaded');
+ // console.group('Main.js loaded');
+
 
 var questions = [
 /* HTML Questions */
@@ -159,7 +160,7 @@ var score = 0;
 //
 
 $(function() {
-   // Hide the Modal after submit
+   // Hide the box after submit
     $("#closesubmit").click(function(){
     $("#myModal").modal("hide");
     });
@@ -205,7 +206,7 @@ function getOptions(question) {
   });
   return $buttonDiv;
 }
-// Populate modal window with specific question
+// Populate box window with specific question
 function showQuestion(event, $modal) {
   var button = $(event.relatedTarget);  // Button that triggered the modal
   var num = parseInt(button.data('num'));
